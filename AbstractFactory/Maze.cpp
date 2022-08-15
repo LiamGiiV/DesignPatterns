@@ -1,6 +1,10 @@
-#include "ConcreteMazeFactory.h"
+#include "AbstractMazeFactory.h"
+#include "Maze.h"
 
-Maze* CreateMaze(ConcreteMazeFactory& factory)
+class MazeGame
+{
+
+Maze* CreateMaze(AbstractMazeFactory& factory)
 {
 	Maze* aMaze = factory.MakeMaze();
 	Room* r1 = factory.MakeRoom(1);
@@ -22,3 +26,4 @@ Maze* CreateMaze(ConcreteMazeFactory& factory)
 
 	return aMaze;
 }
+};

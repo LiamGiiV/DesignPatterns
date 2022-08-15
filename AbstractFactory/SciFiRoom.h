@@ -1,19 +1,19 @@
 #pragma once
 
+#include "AbstractRoom.h"
 #include "CompassDirection.h"
-#include "Wall.h"
+#include "SciFiWall.h"
 
-class Room
+class SciFiRoom : AbstractRoom
 {
 public:
-	Room(int identifier_in, const Wall[4]) : identifier{identifier_in}, walls{} {};
+	SciFiRoom(int identifier_in, const Wall[4]) : identifier{identifier_in}, walls{} {};
 	const int getIdentifier()
 	{
 		return identifier;
 	}
-	const Room SetSide(CompassDirection direction_in, Wall (*makeWall)())
+	const SciFiRoom SetSide(CompassDirection direction_in, Wall (*makeWall)())
 	{
-		// figure out which wall to change
 		if (direction_in >= INVALID_COMPASS_DIRECTION)
 		{
 			const Room result = Room(identifier, walls);

@@ -135,8 +135,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AbstractMazeFactory.h" />
-    <ClInclude Include="ConcreteMazeFactory.h" />
+    <ClInclude Include="CompassDirection.h" />
+    <ClInclude Include="ConcreteSciFiMazeFactory.h" />
+    <ClInclude Include="Door.h" />
     <ClInclude Include="Maze.h" />
+    <ClInclude Include="Room.h" />
+    <ClInclude Include="Wall.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -4,7 +4,7 @@
 class ConcreteSciFiMazeFactory
 {
 public:
-	ConcreteSciFiMazeFactory();
+	ConcreteSciFiMazeFactory() {};
 
 	Maze* MakeMaze() { return new Maze; };
 };

@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\Maze">
+      <UniqueIdentifier>{c2bd3bfb-e2fc-4ae5-97e8-b440e10e9d98}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AbstractFactoryCodeListing.cpp">
@@ -32,13 +35,25 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Maze.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="Wall.h">
+      <Filter>Header Files\Maze</Filter>
     </ClInclude>
     <ClInclude Include="AbstractMazeFactory.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\Maze</Filter>
     </ClInclude>
-    <ClInclude Include="ConcreteMazeFactory.h">
+    <ClInclude Include="ConcreteSciFiMazeFactory.h">
+      <Filter>Header Files\Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>Header Files\Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="Maze.h">
+      <Filter>Header Files\Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Header Files\Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="CompassDirection.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
