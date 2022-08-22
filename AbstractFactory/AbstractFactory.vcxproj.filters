@@ -21,21 +21,15 @@
     <ClCompile Include="AbstractFactoryCodeListing.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MazeGame.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="AbstractMazeFactory.cpp">
+    <ClCompile Include="Maze.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Maze.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Wall.h">
+    <ClInclude Include="SciFiWall.h">
       <Filter>Header Files\Maze</Filter>
     </ClInclude>
     <ClInclude Include="AbstractMazeFactory.h">
@@ -44,17 +38,29 @@
     <ClInclude Include="ConcreteSciFiMazeFactory.h">
       <Filter>Header Files\Maze</Filter>
     </ClInclude>
-    <ClInclude Include="Door.h">
+    <ClInclude Include="SciFiDoor.h">
       <Filter>Header Files\Maze</Filter>
     </ClInclude>
-    <ClInclude Include="Maze.h">
-      <Filter>Header Files\Maze</Filter>
-    </ClInclude>
-    <ClInclude Include="Room.h">
+    <ClInclude Include="SciFiRoom.h">
       <Filter>Header Files\Maze</Filter>
     </ClInclude>
     <ClInclude Include="CompassDirection.h">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Maze.h">
+      <Filter>Header Files\Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractDoor.h">
+      <Filter>Header Files\Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractRoom.h">
+      <Filter>Header Files\Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractWall.h">
+      <Filter>Header Files\Maze</Filter>
+    </ClInclude>
+    <ClInclude Include="SciFiMazeFactory.h">
+      <Filter>Header Files\Maze</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

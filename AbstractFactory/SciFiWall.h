@@ -3,12 +3,12 @@
 #include <string>
 #include"AbstractWall.h"
 
-class SciWall : public AbstractWall
+class SciFiWall : public AbstractWall
 {
 public:
-	SciWall() {};
+	SciFiWall() {};
 	// unique implementations of SciFall walls go here.
-	std::string identify()
+	std::string identify() const override
 	{
 		return std::string("SciFi type wall.");
 	}
