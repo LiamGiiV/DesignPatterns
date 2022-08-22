@@ -1,0 +1,9 @@
+Abstract Factory Scratch Pad
+[*] Do I need a ConcreteSciFiMazeFactory or a SciFiMazeFactory?
+	~ Looks like just SciFiMazeFactory is the one I'm looking for.
+
+= TODO =
+[] Finish implementing the SciFi product.
+	~
+	[] Make sure everything is const!
+		~
