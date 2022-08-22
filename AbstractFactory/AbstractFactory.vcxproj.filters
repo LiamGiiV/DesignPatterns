@@ -16,6 +16,12 @@
     <Filter Include="Header Files\Maze">
       <UniqueIdentifier>{c2bd3bfb-e2fc-4ae5-97e8-b440e10e9d98}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\Maze\SciFi">
+      <UniqueIdentifier>{cdbb3d11-9268-4ab3-8111-8076207350ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Maze\Fantasy">
+      <UniqueIdentifier>{72214bab-4554-43d2-85cd-ee9b590dd3e7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="AbstractFactoryCodeListing.cpp">
@@ -29,19 +35,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="SciFiWall.h">
-      <Filter>Header Files\Maze</Filter>
-    </ClInclude>
     <ClInclude Include="AbstractMazeFactory.h">
-      <Filter>Header Files\Maze</Filter>
-    </ClInclude>
-    <ClInclude Include="ConcreteSciFiMazeFactory.h">
-      <Filter>Header Files\Maze</Filter>
-    </ClInclude>
-    <ClInclude Include="SciFiDoor.h">
-      <Filter>Header Files\Maze</Filter>
-    </ClInclude>
-    <ClInclude Include="SciFiRoom.h">
       <Filter>Header Files\Maze</Filter>
     </ClInclude>
     <ClInclude Include="CompassDirection.h">
@@ -59,8 +53,32 @@
     <ClInclude Include="AbstractWall.h">
       <Filter>Header Files\Maze</Filter>
     </ClInclude>
-    <ClInclude Include="SciFiMazeFactory.h">
-      <Filter>Header Files\Maze</Filter>
+    <ClInclude Include="SciFiDoor.h">
+      <Filter>Header Files\Maze\SciFi</Filter>
     </ClInclude>
+    <ClInclude Include="SciFiMazeFactory.h">
+      <Filter>Header Files\Maze\SciFi</Filter>
+    </ClInclude>
+    <ClInclude Include="SciFiRoom.h">
+      <Filter>Header Files\Maze\SciFi</Filter>
+    </ClInclude>
+    <ClInclude Include="SciFiWall.h">
+      <Filter>Header Files\Maze\SciFi</Filter>
+    </ClInclude>
+    <ClInclude Include="FantasyDoor.h">
+      <Filter>Header Files\Maze\Fantasy</Filter>
+    </ClInclude>
+    <ClInclude Include="FantasyMazeFactory.h">
+      <Filter>Header Files\Maze\Fantasy</Filter>
+    </ClInclude>
+    <ClInclude Include="FantasyRoom.h">
+      <Filter>Header Files\Maze\Fantasy</Filter>
+    </ClInclude>
+    <ClInclude Include="FantasyWall.h">
+      <Filter>Header Files\Maze\Fantasy</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ScratchPad.txt" />
   </ItemGroup>
 </Project>

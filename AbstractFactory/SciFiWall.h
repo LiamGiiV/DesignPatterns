@@ -8,8 +8,8 @@ class SciFiWall : public AbstractWall
 public:
 	SciFiWall() {};
 	// unique implementations of SciFall walls go here.
-	std::string identify() const override
+	const std::string identify() const override
 	{
-		return std::string("SciFi type wall.");
+		return const std::string("SciFi type wall.");
 	}
 };

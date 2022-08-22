@@ -137,12 +137,18 @@
     <ClInclude Include="AbstractMazeFactory.h" />
     <ClInclude Include="AbstractWall.h" />
     <ClInclude Include="CompassDirection.h" />
-    <ClInclude Include="ConcreteSciFiMazeFactory.h" />
+    <ClInclude Include="FantasyDoor.h" />
+    <ClInclude Include="FantasyMazeFactory.h" />
+    <ClInclude Include="FantasyRoom.h" />
+    <ClInclude Include="FantasyWall.h" />
     <ClInclude Include="SciFiDoor.h" />
     <ClInclude Include="Maze.h" />
     <ClInclude Include="SciFiMazeFactory.h" />
     <ClInclude Include="SciFiRoom.h" />
     <ClInclude Include="SciFiWall.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ScratchPad.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

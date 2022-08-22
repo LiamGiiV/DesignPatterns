@@ -8,5 +8,5 @@ public:
 	virtual ~AbstractWall() {};
 
 	// things that all the walls must implement go here.
-	virtual std::string identify() const = 0;
+	virtual const std::string identify() const = 0;
 };

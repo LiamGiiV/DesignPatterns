@@ -1,4 +1,7 @@
 Abstract Factory Scratch Pad
+= Next Time... =
+	[] Finish SciFiMazeFactory.h
+
 [*] Do I need a ConcreteSciFiMazeFactory or a SciFiMazeFactory?
 	~ Looks like just SciFiMazeFactory is the one I'm looking for.
 
@@ -7,3 +10,7 @@ Abstract Factory Scratch Pad
 	~
 	[] Make sure everything is const!
 		~
+
+= Upgrades =
+[] Add a way to create Rooms without having walls ahead of time. Currently the way Rooms are made requires all the walls to be made first. 
+	~

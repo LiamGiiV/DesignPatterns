@@ -11,17 +11,17 @@ class SciFiMazeFactory : public AbstractMazeFactory
 public:
 	SciFiMazeFactory() {};
 
-	virtual Maze* MakeMaze() const
+	const Maze* MakeMaze() const override
 	{
 		return new Maze;
 	}
 
-	virtual AbstractDoor* MakeDoor(const AbstractRoom* roomOne_in, const AbstractRoom* roomTwo_in) const
+	const AbstractDoor* MakeDoor(const AbstractRoom* roomOne_in, const AbstractRoom* roomTwo_in) const override
 	{
-		return new SciFiDoor(roomOne_in, roomTwo_in);
+		return new const SciFiDoor(roomOne_in, roomTwo_in);
 	}
 
-	virtual AbstractRoom* MakeRoom(const int identifier_in, const AbstractWall walls_in[4]) const
+	const AbstractRoom* MakeRoom(const int identifier_in, const AbstractWall walls_in) const override
 	{
 		return new AbstractRoom(identifier_in, walls_in);
 	}
