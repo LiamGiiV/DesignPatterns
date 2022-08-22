@@ -21,18 +21,18 @@ private:
 	bool open;
 
 	const AbstractDoor* setWall(AbstractWall* wall_in) const override
-	{
+		{
 		const SciFiWall tempWall = SciFiWall();
 		return new const SciFiDoor(roomOne, roomTwo, &tempWall);
 	}
 
-	const AbstractDoor* openDoor()
+	const AbstractDoor* openDoor() const override
 	{
 		if (open) return this;
 		return new const SciFiDoor(roomOne, roomTwo, wall, true);
 	}
 
-	const AbstractDoor* closeDoor()
+	const AbstractDoor* closeDoor() const override
 	{
 		if (!open) return this;
 		return new const SciFiDoor(roomOne, roomTwo, wall, false);
